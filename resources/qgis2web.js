@@ -244,7 +244,7 @@ function onPointerMove(evt) {
                     highlightStyle = new ol.style.Style({
                         image: new ol.style.Circle({
                             fill: new ol.style.Fill({
-                                color: "#00ffff"
+                                color: "rgba(0, 255, 255, 0.15)"  // 0.15 = 15% opacity
                             }),
                             radius: radius
                         })
